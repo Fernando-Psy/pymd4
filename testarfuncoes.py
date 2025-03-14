@@ -1,5 +1,5 @@
 #Testes do código
-from tarefamd4 import extrai_coluna_csv, extrai_linha_txt
+from criarfuncoes import extrai_coluna_csv, extrai_linha_txt
 
 print("=== Testando extrai_coluna_csv ===")
 valor_venda = extrai_coluna_csv(nome_arquivo='carros.csv', indice_coluna=1, tipo_dado='str')
